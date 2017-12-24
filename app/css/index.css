@@ -1,0 +1,44 @@
+/* package.json style attribute not supported T_T */
+@import "mdi/css/materialdesignicons.css";
+@import "uikit/dist/css/uikit.css";
+@import "sweetalert2/dist/sweetalert2.css";
+@import "typeface-nanum-square";
+@import "./variables.css";
+
+.uk-logo {
+	font-family: var(--font);
+}
+
+.uk-container {
+	& h1, & h2, & h3, & h4, & h5, & h6 {
+		font-family: var(--font);
+
+		&::before {
+			content: "#";
+			width: 25px;
+			float: left;
+			font-weight: 100;
+			font-family: var(--font);
+			color: #999;
+		}
+	}
+}
+
+.flex {
+	display: flex;
+}
+
+.flex-1 { flex: 1; }
+.flex-2 { flex: 2; }
+.flex-3 { flex: 3; }
+.flex-4 { flex: 4; }
+.flex-5 { flex: 5; }
+.flex-6 { flex: 6; }
+.flex-7 { flex: 7; }
+.flex-8 { flex: 8; }
+.flex-9 { flex: 9; }
+.flex-10 { flex: 10; }
+
+* {
+	font-family: var(--font);
+}
