@@ -2,7 +2,7 @@ const queryString = require('query-string');
 const pad2 = (str) => parseInt(str) < 10 ? `0${str}` : `${str}`;
 
 const ADMIN_TOKEN = require('../../config.json').adminToken;
-const API_ROOT = "http://localhost:8080";
+const API_ROOT = "https://gokin.onebone.me";
 const API_VERSION = 2;
 const API_RESPONSE = {
 	0: "성공",
