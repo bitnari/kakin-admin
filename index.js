@@ -24,7 +24,6 @@ app.on('ready', () => {
 	});
 	mainWindow.setMenu(null);
 	mainWindow.loadURL(`kakinpos://kakinpos/`);
-	mainWindow.toggleDevTools();
 	mainWindow.on('closed', () => {
 		mainWindow = null;
 	});
